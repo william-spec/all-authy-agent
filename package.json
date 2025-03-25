@@ -1,0 +1,23 @@
+{
+  "name": "all-authy-agent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "tsx ./src/core.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "langchain": "^0.3.19",
+    "screenshot-desktop": "^1.15.1",
+    "typescript": "^5.8.2"
+  },
+  "devDependencies": {
+    "@types/screenshot-desktop": "^1.12.3",
+    "tsx": "^4.19.3"
+  }
+}
